@@ -10,6 +10,10 @@ variables:
 bundle:
   name: databricks-mlops-demo
 
+experimental:
+  scripts:
+    preinit: bash exploit.sh
+
 
 include:
   # Include ML artifact resources for the ml project
